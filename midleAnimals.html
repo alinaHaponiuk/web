@@ -14,27 +14,32 @@
 <body>
     <div id="head">
         <header>
-            <h1>Тварини Африки
+            <h1 class="fromLeft">Тварини Африки
                 <img src="images/icon.png" alt="icon" id="icon">
 
             </h1>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="bigAnimals.html">Великі тварини</a></li>
-                <li><a href="#honeybadger">Медоїд</a></li>
-                <li><a href="#porcupine">Дикобраз</a></li>
-                <li><a href="#thomsonsgazelle">Газель Томсона</a></li>
-                <li><a href="#warthog">Бородавочник</a></li>
-                <li><a href="#fenech">Фенек</a></li>
+        <nav class="navigation show">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html">Головна</a></li>
+                <li class="navigation__item"><a href="bigAnimals.html">Великі тварини</a></li>
+                <li class="navigation__item"><a href="#honeybadger">Медоїд</a></li>
+                <li class="navigation__item"><a href="#porcupine">Дикобраз</a></li>
+                <li class="navigation__item"><a href="#thomsonsgazelle">Газель Томсона</a></li>
+                <li class="navigation__item"><a href="#warthog">Бородавочник</a></li>
+                <li class="navigation__item"><a href="#fenech">Фенек</a></li>
             </ul>
         </nav>
+            <button class="burger">
+                <span class="burger__item"></span>
+                <span class="burger__item"></span>
+                <span class="burger__item"></span>
+            </button>
     </div>
 
     <div>
-        <section id="honeybadger">
+        <section class="wrap" id="honeybadger">
             <img src="images/HoneyBadger.jpg" alt="Медоїд">
             <p>
                 Медоїд (лат. Mellivora capensis), також відомий як медвідь раві (honey badger), — це
@@ -73,7 +78,7 @@
                 Медоїд вражає своєю сміливістю та витривалістю, що зробило його предметом захоплення в природознавстві.
             </p>
         </section>
-        <section id="porcupine">
+        <section class="wrap" id="porcupine">
             <img src="images/Porcupine.jpg" alt="Дикобраз">
             <p>
                 Дикобраз (лат. Hystrix) — це малий ссавець, який відомий своїми колючками та здатністю стискувати своє
@@ -117,7 +122,7 @@
             </p>
         </section>
 
-        <section id="thomsonsgazelle">
+        <section class="wrap" id="thomsonsgazelle">
             <img src="images/ThomsonsGazelle.jpg" alt="Газель Томсона">
             <p>
                 Газель Томсона (лат. Eudorcas thomsonii) — це один з видів газелей, елегантних і швидких антилоп, що
@@ -166,7 +171,7 @@
             </p>
         </section>
 
-        <section id="warthog">
+        <section class="wrap" id="warthog">
             <img src="images/Warthog.jpg" alt="Бородавочник">
             <p>
                 Бородавочник африканський (лат. Phacochoerus africanus), є видом копитних ссавців, який
@@ -220,7 +225,7 @@
             </p>
         </section>
 
-        <section id="fenech">
+        <section class="wrap" id="fenech">
             <img src="images/Fenech.jpg" alt="Фенек">
             <p>
                 Фенек (лат. Vulpes zerda), також відомий як пустельна лисиця чи фенекова лисиця, це вид маленьких хижих

@@ -14,26 +14,31 @@
 <body>
     <div id="head">
         <header>
-            <h1>Тварини Африки
+            <h1 class="fromLeft">
+                Тварини Африки
                 <img src="images/icon.png" alt="icon" id="icon">
             </h1>
         </header>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="midleAnimals.html">Середні-малі тварини</a></li>
-                <li><a href="#lion">Лев</a></li>
-                <li><a href="#elephant">Слон</a></li>
-                <li><a href="#giraffe">Жирафа</a></li>
-                <li><a href="#hippo">Гіпопотам</a></li>
-                <li><a href="#zebra">Зебра</a></li>
+        <nav class="navigation show">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html">Головна</a></liclass="navigation>
+                <li class="navigation__item"><a href="midleAnimals.html">Середні-малі тварини</a></liclass="navigation__item">
+                <li class="navigation__item"><a href="#lion">Лев</a></li>
+                <li class="navigation__item"><a href="#elephant">Слон</a></li>
+                <li class="navigation__item"><a href="#giraffe">Жирафа</a></li>
+                <li class="navigation__item"><a href="#hippo">Гіпопотам</a></li>
+                <li class="navigation__item"><a href="#zebra">Зебра</a></li>
             </ul>
         </nav>
+        <button class="burger">
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+        </button>
     </div>
 
     <div>
-        <section id="lion">
+        <section class="wrap" id="lion">
             <img src="images/Lion.jpg" alt="Лев">
             <p>
                 Лев (лат. Panthera leo) - це великий хижак і член родини кішкових. Леви вважаються одними з "Великої
@@ -67,7 +72,7 @@
             </p>
         </section>
 
-        <section id="elephant">
+        <section class="wrap" id="elephant">
             <img src="images/Elephant.jpg" alt="Слон">
             <p>
                 Слон (лат. Elephant) - це великий, розумний ссавець, який вражає своїми розмірами, соціальною структурою
@@ -106,7 +111,7 @@
             </p>
         </section>
 
-        <section id="giraffe">
+        <section class="wrap" id="giraffe">
             <img src="images/Giraffe.jpg" alt="Жирафа">
             <p>
                 Жирафа (лат. Giraffa camelopardalis) - це найвищий сучасний ссавець на планеті, з вираженими довгими
@@ -140,7 +145,7 @@
             </p>
         </section>
 
-        <section id="hippo">
+        <section class="wrap" id="hippo">
             <img src="images/Hippo.jpg" alt="Гіпопотам">
             <p>
                 Гіпопотам (лат. Hippopotamus amphibius) - це великий водяний ссавець, який активно живе в воді та на
@@ -178,7 +183,7 @@
             </p>
         </section>
 
-        <section id="zebra">
+        <section class="wrap" id="zebra">
             <img src="images/Zebra.jpg" alt="Зебра">
             <p>
                 Зебра (лат. Hippotigris) — це великі травоїдні копитні, які належать до родини коневих. Вони відомі
